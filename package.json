@@ -12,6 +12,7 @@
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
+    "@googlemaps/js-api-loader": "^1.13.9",
     "@mui/icons-material": "^5.2.5",
     "@mui/material": "^5.2.5",
     "axios": "^0.24.0",

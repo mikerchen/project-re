@@ -1,0 +1,71 @@
+/**** NavBar ****/
+.nav-link {
+    text-decoration: none;
+}
+
+
+
+
+/**** Search Header ****/
+.header-left {
+    height: 400;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 1px solid black;
+    
+}
+
+.header-right {
+    height: 400;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto
+}
+
+.search-container {
+    width: 100%;
+    display: flex
+}
+
+#searchBox {
+    height: 30px;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-left: 15px;
+}
+
+.filter-supplies {
+    display: block;
+    padding: 10px;
+    margin: auto
+}
+
+#map {
+    height: 600px;
+    width: 75%;
+    margin: auto
+}
+
+
+/****Register****/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+#zip {
+    -webkit-appearance: none;
+    margin:0;
+    -moz-appearance: textfield
+}
